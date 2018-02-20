@@ -22,8 +22,8 @@ python -m http.server 8080
 ```
 
 3. In your browser go to the following urls:
-- http://localhost/calendar.html
-- http://localhost/histo.html
+- http://localhost:8080/calendar.html
+- http://localhost:8080/histo.html
 
 
 -----
