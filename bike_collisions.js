@@ -45,7 +45,7 @@ svg.selectAll("path.month")
     .attr("class", "month")
     .attr("d", monthPath);
 
-d3.csv("bike_collisions.csv", function(csv) {
+d3.csv("./data/bike_collisions.csv", function(csv) {
   var data = d3.nest()
     .key(function(d) { return d.ACCDATE; })
     .rollup(function(d) { return sumIncidents(d) })
