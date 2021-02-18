@@ -82,7 +82,7 @@ histogram.selectAll("text.yAxis").
 }
 
 // reads the data from a csv file
-d3.csv("bike_collisions.csv", function(csv) {
+d3.csv("./data/bike_collisions.csv", function(csv) {
   var data = d3.nest()
     .key(function(d) { return convertTime(d.ACCTIME); })
     .rollup(function(d) { return sumIncidents(d) })

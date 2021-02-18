@@ -2,7 +2,18 @@
 
 This repository includes two visualizations of motor vehicle collisions involving a bicycle in the province of Saskatchewan, Canada.
 
-The data used here has been made available for public consumption by SGI, the provincial public automobile isurer.
+The data used here has been made available for public consumption by SGI, the provincial public automobile insurer.
+
+## Visualizations
+
+### Bicycle accidents by time of day
+
+![Bicycle accidents by time of day](./vis/histogram_view.png)
+
+### Bicycle accidents calendar view
+
+![Bicycle accident calendar view](./vis/calendar_view.png)
+
 
 ## Run the visualizations
 
